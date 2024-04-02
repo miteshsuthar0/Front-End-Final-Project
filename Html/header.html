@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header</title>
+    <style>
+        .nav-brand {
+            float: left;
+        }
+
+        .firstnav {
+            background-color: #F7E2E2 !important;
+            width: 100vw !important;
+        }
+
+        .searchbutton {
+            color: black !important;
+            border-color: black !important;
+        }
+
+        .login-button {
+            color: white !important;
+            background-color: black;
+            border-color: black !important;
+            position: relative;
+            left: 5em;
+        }
+
+        .login-button:hover {
+            color: white !important;
+            background-color: black !important;
+        }
+
+        .searchbutton:hover {
+            color: white !important;
+            background-color: black !important;
+        }
+
+        .form-control {
+            width: 20em !important;
+        }
+
+        .form-inline {
+            position: relative;
+            right: 7em;
+        }
+
+        .cart-btn {
+            position: relative;
+            left: 5em;
+            cursor: pointer;
+        }
+
+        .nav .nav-item .nav-link {
+            text-decoration: none !important;
+            color: black;
+            list-style: none !important;
+        }
+        .nav{
+            background-color: rgb(221, 221, 221) !important;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-light firstnav">
+        <a class="navbar-brand" href="./Index.html"><img src="../IMG/logo.png" alt="Logo" height="70em"></a>
+        <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0 searchbutton" type="submit">Search</button>
+            <a href="./login.html" class="btn btn-primary login-button">Login</a>
+            <a class="navbar-brand cart-btn" href="./carts.html"><img src="../IMG/cart-shopping-solid.svg"
+                    alt="cart-img" height="30em"></a>
+        </form>
+    </nav>
+    <!-- nav-bar -->
+
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+            <a class="nav-link " href="./Index.html">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link " href="./All_products.html">All Products</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="./women.html" role="button"
+                aria-haspopup="true" aria-expanded="false">Women</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="./dresses.html">Dresses</a>
+                <a class="dropdown-item" href="./womens_pants.html">Pants</a>
+                <a class="dropdown-item" href="./skirts.html">Skirts</a>
+            </div>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                aria-expanded="false">Men</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="./shirts.html">Shirts</a>
+                <a class="dropdown-item" href="mens_pants.html">Pants</a>
+                <a class="dropdown-item" href="./hoodie.html">Hoodies</a>
+            </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="./kids.html">Kids</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact Us</a>
+        </li>
+    </ul>
+
+
+    <!-- nav-bar ends -->
+
+</body>
+
+</html>

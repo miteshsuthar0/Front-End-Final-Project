@@ -1,0 +1,3 @@
+Must run this project on any server as it containes JQuery to get header and footer dynamically.
+
+Thank you.
